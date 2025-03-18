@@ -1,0 +1,42 @@
+html {
+  /* 优化文本显示，优化IOS连体字 */
+  text-rendering: optimizelegibility;
+
+  /* 用于解决iOS连体字母问题 */
+  font-variant-ligatures: none;
+
+  /* 解决字体缩放的问题 */
+  text-size-adjust: none;
+
+  /* 字体平滑，使字体显示更清晰 */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  font-size: 12px;
+  font-family:
+    'HarmonyOS Sans SC',
+    -apple-system,
+    BlinkMacSystemFont,
+    'Helvetica Neue',
+    Helvetica,
+    'Segoe UI',
+    Arial,
+    Roboto,
+    'PingFang SC',
+    miui,
+    'Hiragino Sans GB',
+    'Microsoft Yahei',
+    sans-serif !important;
+
+  /* 默认字体颜色为白色 */
+  color: white;
+}
+
+#app {
+  width: 100%;
+  height: 100%;
+}
